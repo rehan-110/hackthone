@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    
+    font-style: normal;
+}
+.nav-icons li a i{
+    color: white;
+    
+}
+.rehan{
+    text-transform: uppercase;
+    font-size: 13px; 
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.number a {
+    font-size: 13px;
+
+}
+.navbar-toggler-icon{
+    background-image:  url(./img/toggleer.png) !important;
+    height: 100%;
+    width: 100%;
+}
+.banner{
+    
+    position: relative;
+    top: 60px;
+    background-image:  url(./img/banner-bg.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    }
+.banner-text{
+       padding-top: 250px;
+}
+.banner h1{
+   font-size: 50px;
+}
+.button{
+
+    border-radius: 0 !important;
+    padding: 5px 30px !important;
+}
+.banner::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0,0.7);
+ z-index: 1px;
+}
+.text-padding{
+    margin: 100px 0;
+    
+}
+.text-padding h2{
+    font-size: 40px;
+    font-weight: bold;
+} 
+
+.text-padding-1{
+    margin: 100px 0;
+    
+}
+.text-padding-1 h2{
+    font-size: 40px;
+    font-weight: bold;
+} 
+.text-padding-2{
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    
+}
+.text-padding-2 h2{
+    font-size: 40px;
+    font-weight: bold;
+} 
+ .radius{
+     
+    width: 50px;
+    
+}
+.comment p{
+    width: 395px;
+}
+.img-text {
+    position: relative;
+    top: 200px;
+    color: white;
+    z-index: 1;
+    
+    
+}
+
+.text{
+    position: relative;
+    bottom: 50px;
+   z-index: 1px;
+}
+
+.btn-light{
+    border-radius: 0 !important;
+    font-size: 12px !important;
+}
+
+.button-2{
+    height: 30px !important;
+}
+.iconss li{
+    display: inline-block;
+    margin-right: 10px;
+padding-left: 1px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.image-bg {
+    background-image: url(./img/call-action-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0;
+    min-height: 500px;
+    max-height: fit-content;
+}
+
+
+.image-gallery{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+.image-gallery img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.fa-star{
+    color: rgb(236, 236, 59);
+}
+
+.header-1{
+    position: fixed !important;
+    top: 1 !important;
+    left: 0 !important;
+    
+    display: flex;
+  z-index: 1;
+    width: 100% !important;
+    justify-content: space-around !important;
+    
+}
+.secondnav{
+    position: fixed;
+    top: 40px;
+    z-index: 1;
+}
+.image-bg::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 1px;
+    top: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.7);
+}
+
+.btn-warning{
+    background-color: #c6b069 !important;
+border-color:#c6b069 !important ;
+z-index: 1px;
+color: white !important;
+text-transform: uppercase !important;
+}
+.yellow-bg{
+    background-color: #c6b069 !important;
+
+}
+.coloring{
+    color: #c6b069 !important;
+}
+
